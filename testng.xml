@@ -1,0 +1,44 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+ 
+<suite name="SynerzipHRMS 1.0" verbose="1" >
+<test name="Launch SynerzipHRMS test" >
+   <classes>
+      <class name="Tests.SynerzipLaunchURLTest" />
+   </classes>
+</test>
+<test name="Launch SynerzipHRMSLogin test" >
+   <classes>
+      <class name="Tests.SynerzipHRMSLoginTest" />
+   </classes>
+</test>
+<test name="Launch SynerzipHRMS Home Tabtest" >
+   <classes>
+      <class name="Tests.SynerzipHomeTabTest" />
+   </classes>
+</test>
+<test name="Launch SynerzipHRMS Leave Tabtest" >
+   <classes>
+      <class name="Tests.SynerzipLeaveTabTest" />
+   </classes>
+</test>
+<test name="Launch SynerzipHRMS Recruitment Tabtest" >
+   <classes>
+      <class name="Tests.SynerzipRecruitmentTabTest" />
+   </classes>
+</test>
+<test name="Launch SynerzipHRMS Performance Tabtest" >
+   <classes>
+      <class name="Tests.SynerzipPerformanceTabTest" />
+   </classes>
+</test>
+<test name="Launch SynerzipHRMS MyInfo Tabtest" >
+   <classes>
+      <class name="Tests.SynerzipMyInfoTabTest" />
+   </classes>
+</test>
+<test name="Launch SynerzipHRMS DirectoryTabtest" >
+   <classes>
+      <class name="Tests.SynerzipEmployeeDirectoryTest" />
+   </classes>
+</test>
+</suite>

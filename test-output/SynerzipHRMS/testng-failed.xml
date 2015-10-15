@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SynerzipHRMS]">
+  <test name="Launch SynerzipHRMS test(failed)">
+    <classes>
+      <class name="Tests.SynerzipHRMSLoginTest">
+        <methods>
+          <include name="BeforeLaunchURLTest"/>
+        </methods>
+      </class> <!-- Tests.SynerzipHRMSLoginTest -->
+      <class name="Tests.SynerzipEmployeeDirectoryTest">
+        <methods>
+          <include name="AfterLaunchURLTest"/>
+        </methods>
+      </class> <!-- Tests.SynerzipEmployeeDirectoryTest -->
+      <class name="Tests.SynerzipLaunchURLTest">
+        <methods>
+          <include name="LaunchURLTest"/>
+          <include name="BeforeLaunchURLTest"/>
+        </methods>
+      </class> <!-- Tests.SynerzipLaunchURLTest -->
+    </classes>
+  </test> <!-- Launch SynerzipHRMS test(failed) -->
+</suite> <!-- Failed suite [SynerzipHRMS] -->

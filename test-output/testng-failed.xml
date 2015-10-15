@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SynerzipHRMS 1.0]">
+  <test name="Launch SynerzipHRMS test(failed)">
+    <classes>
+      <class name="Tests.SynerzipLaunchURLTest">
+        <methods>
+          <include name="LaunchURLTest"/>
+          <include name="BeforeLaunchURLTest"/>
+        </methods>
+      </class> <!-- Tests.SynerzipLaunchURLTest -->
+      <class name="Tests.SynerzipEmployeeDirectoryTest">
+        <methods>
+          <include name="AfterLaunchURLTest"/>
+        </methods>
+      </class> <!-- Tests.SynerzipEmployeeDirectoryTest -->
+      <class name="Tests.SynerzipHRMSLoginTest">
+        <methods>
+          <include name="BeforeLaunchURLTest"/>
+        </methods>
+      </class> <!-- Tests.SynerzipHRMSLoginTest -->
+    </classes>
+  </test> <!-- Launch SynerzipHRMS test(failed) -->
+  <test name="Launch SynerzipHRMS Home Tabtest(failed)">
+    <classes>
+      <class name="Tests.SynerzipHomeTabTest">
+        <methods>
+          <include name="HomeTabTest"/>
+        </methods>
+      </class> <!-- Tests.SynerzipHomeTabTest -->
+      <class name="Tests.SynerzipLaunchURLTest">
+        <methods>
+          <include name="BeforeLaunchURLTest"/>
+        </methods>
+      </class> <!-- Tests.SynerzipLaunchURLTest -->
+      <class name="Tests.SynerzipEmployeeDirectoryTest">
+        <methods>
+          <include name="AfterLaunchURLTest"/>
+        </methods>
+      </class> <!-- Tests.SynerzipEmployeeDirectoryTest -->
+      <class name="Tests.SynerzipHRMSLoginTest">
+        <methods>
+          <include name="BeforeLaunchURLTest"/>
+        </methods>
+      </class> <!-- Tests.SynerzipHRMSLoginTest -->
+    </classes>
+  </test> <!-- Launch SynerzipHRMS Home Tabtest(failed) -->
+  <test name="Launch SynerzipHRMS Leave Tabtest(failed)">
+    <classes>
+      <class name="Tests.SynerzipLeaveTabTest">
+        <methods>
+          <include name="LeaveTabTest"/>
+        </methods>
+      </class> <!-- Tests.SynerzipLeaveTabTest -->
+      <class name="Tests.SynerzipLaunchURLTest">
+        <methods>
+          <include name="BeforeLaunchURLTest"/>
+        </methods>
+      </class> <!-- Tests.SynerzipLaunchURLTest -->
+      <class name="Tests.SynerzipEmployeeDirectoryTest">
+        <methods>
+          <include name="AfterLaunchURLTest"/>
+        </methods>
+      </class> <!-- Tests.SynerzipEmployeeDirectoryTest -->
+      <class name="Tests.SynerzipHRMSLoginTest">
+        <methods>
+          <include name="BeforeLaunchURLTest"/>
+        </methods>
+      </class> <!-- Tests.SynerzipHRMSLoginTest -->
+    </classes>
+  </test> <!-- Launch SynerzipHRMS Leave Tabtest(failed) -->
+  <test name="Launch SynerzipHRMS Performance Tabtest(failed)">
+    <classes>
+      <class name="Tests.SynerzipPerformanceTabTest">
+        <methods>
+          <include name="PerformanceTabTest"/>
+        </methods>
+      </class> <!-- Tests.SynerzipPerformanceTabTest -->
+      <class name="Tests.SynerzipLaunchURLTest">
+        <methods>
+          <include name="BeforeLaunchURLTest"/>
+        </methods>
+      </class> <!-- Tests.SynerzipLaunchURLTest -->
+      <class name="Tests.SynerzipEmployeeDirectoryTest">
+        <methods>
+          <include name="AfterLaunchURLTest"/>
+        </methods>
+      </class> <!-- Tests.SynerzipEmployeeDirectoryTest -->
+      <class name="Tests.SynerzipHRMSLoginTest">
+        <methods>
+          <include name="BeforeLaunchURLTest"/>
+        </methods>
+      </class> <!-- Tests.SynerzipHRMSLoginTest -->
+    </classes>
+  </test> <!-- Launch SynerzipHRMS Performance Tabtest(failed) -->
+  <test name="Launch SynerzipHRMS MyInfo Tabtest(failed)">
+    <classes>
+      <class name="Tests.SynerzipLaunchURLTest">
+        <methods>
+          <include name="BeforeLaunchURLTest"/>
+        </methods>
+      </class> <!-- Tests.SynerzipLaunchURLTest -->
+      <class name="Tests.SynerzipMyInfoTabTest">
+        <methods>
+          <include name="MyInfoTabTest"/>
+        </methods>
+      </class> <!-- Tests.SynerzipMyInfoTabTest -->
+      <class name="Tests.SynerzipEmployeeDirectoryTest">
+        <methods>
+          <include name="AfterLaunchURLTest"/>
+        </methods>
+      </class> <!-- Tests.SynerzipEmployeeDirectoryTest -->
+      <class name="Tests.SynerzipHRMSLoginTest">
+        <methods>
+          <include name="BeforeLaunchURLTest"/>
+        </methods>
+      </class> <!-- Tests.SynerzipHRMSLoginTest -->
+    </classes>
+  </test> <!-- Launch SynerzipHRMS MyInfo Tabtest(failed) -->
+  <test name="Launch SynerzipHRMS DirectoryTabtest(failed)">
+    <classes>
+      <class name="Tests.SynerzipLaunchURLTest">
+        <methods>
+          <include name="BeforeLaunchURLTest"/>
+        </methods>
+      </class> <!-- Tests.SynerzipLaunchURLTest -->
+      <class name="Tests.SynerzipEmployeeDirectoryTest">
+        <methods>
+          <include name="EmployeeDirectoryTest"/>
+          <include name="AfterLaunchURLTest"/>
+        </methods>
+      </class> <!-- Tests.SynerzipEmployeeDirectoryTest -->
+      <class name="Tests.SynerzipHRMSLoginTest">
+        <methods>
+          <include name="BeforeLaunchURLTest"/>
+        </methods>
+      </class> <!-- Tests.SynerzipHRMSLoginTest -->
+    </classes>
+  </test> <!-- Launch SynerzipHRMS DirectoryTabtest(failed) -->
+</suite> <!-- Failed suite [SynerzipHRMS 1.0] -->
